@@ -4,7 +4,7 @@ A modern Free Fire landing page built with Next.js, Tailwind CSS, and shadcn/ui.
 
 ## 🚀 Live Demo
 
-👉 https://YOUR_VERCEL_LINK.vercel.app
+👉 https://clerk-shadcn-learn.vercel.app/
 
 ## 📸 Features
 
@@ -51,7 +51,7 @@ npm run dev
 This project is deployed on Vercel.
 
 Live Site:
-https://YOUR_VERCEL_LINK.vercel.app
+https://clerk-shadcn-learn.vercel.app/
 
 ## Author
 
