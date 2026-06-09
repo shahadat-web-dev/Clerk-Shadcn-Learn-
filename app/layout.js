@@ -23,10 +23,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning> {/* ১. এটি যোগ করা হয়েছে */}
+    <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider
-          attribute="class"   /* ২. এটি যোগ করা হয়েছে */
+          attribute="class"   
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
