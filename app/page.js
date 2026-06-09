@@ -7,7 +7,45 @@ function Navbar() {
   return (
    <></>
   );
-}
+};
+
+
+ {/* Button */}
+      <div className="flex gap-2 justify-center py-10">
+        <Button className='px-10 py-5 text-2xl cursor-progress' variant="destructive">Button</Button>
+        <Button className='px-10 py-5 text-2xl cursor-progress' variant="outline">Button</Button>
+        <Button className='px-10 py-5 text-2xl cursor-progress' variant="secondary">Button</Button>
+        <Button className='px-10 py-5 text-2xl cursor-progress' variant="ghost">Button</Button>
+      </div>
+
+      {/* DropDownMenu */}
+      // <div className="flex justify-center pb-10">
+      //   <DropdownMenu>
+      //     <DropdownMenuTrigger asChild>
+      //       <Button className='text-2xl p-8 cursor-progress' variant="">Open DropdownMenu</Button>
+      //     </DropdownMenuTrigger>
+      //     <DropdownMenuContent>
+      //       <DropdownMenuGroup>
+      //         <DropdownMenuLabel>My Account</DropdownMenuLabel>
+      //         <DropdownMenuItem>Profile</DropdownMenuItem>
+      //         <DropdownMenuItem>Billing</DropdownMenuItem>
+      //       </DropdownMenuGroup>
+      //       <DropdownMenuSeparator />
+      //       <DropdownMenuGroup>
+      //         <DropdownMenuItem>Team</DropdownMenuItem>
+      //         <DropdownMenuItem>Subscription</DropdownMenuItem>
+      //       </DropdownMenuGroup>
+      //     </DropdownMenuContent>
+      //   </DropdownMenu>
+      // </div>
+
+
+      {/* DraK Mode */}
+      <div className="flex items-center gap-2 scale-125 justify-center pb-10">
+        <h1>DraK & Light</h1>
+        <ModeToggle />
+        <h1>Toggle Mode</h1>
+      </div>
 
 // --- Hero ---
 function Hero() {
